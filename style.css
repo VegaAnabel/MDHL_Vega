@@ -5,20 +5,18 @@
 }
 
 h1{
-   
         text-align: inherit;
         color:black;
         font-style:oblique ;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-main article h3{
-
+div article h3{
     color:black;
     font-style:oblique
-    
-  
 }
+
 
 div a[href="#"]{
     display: inline-block;
@@ -27,42 +25,24 @@ div a[href="#"]{
     height: 2.5rem;
     padding: 0.5rem;
     text-align: center;
-    text-decoration: none;
-    font-weight: 400;
-    border-radius: 0.0em;  
     border-style: solid;
     border-color: black;
-    box-shadow: 2.5px 0 0.5px #a09d9d;
-   
-}
+    box-shadow: 2.5px 0 0.5px #8a8686;
+   }
 
-div a[href="./About.html"]{
+div a{
     display: inline-block;
     color: white;
     background-color: rgb(58, 78, 196);
     height: 2.5rem;
     padding: 0.5rem;
     text-align: center;
-    text-decoration: black;
-    font-weight: 400;
-    border-radius: 0.0em;   
+    text-decoration: none; 
     border-style: groove;
     border-color: black;
     box-shadow: 2.5px 0 0.5px #a09d9d;
 }
 
-div a[href="./Contact.html"]{
-    display: inline-block;
-    color: white;
-    background-color: rgb(58, 78, 196);
-    height: 2.5rem;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: black;
-    font-weight: 400;
-    border-radius: 0.0em;   
-    border-style: groove;
-    border-color: black;
-    box-shadow: 2.5px 0 2.5px #a09d9d;
    
-}
+
+
