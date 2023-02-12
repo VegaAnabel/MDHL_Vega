@@ -4,45 +4,89 @@
     box-sizing: border-box;
 }
 
-h1{
-        text-align: inherit;
-        color:black;
-        font-style:oblique ;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/*miniportada*/
 
+.miniportada {
+    width: 100%;
+    display: block;
 }
 
-div article h3{
+
+/*header*/
+header{
+    font-size: 2.5vw;
+}
+/*Titulo principal*/
+.titulop {
+    margin-top: -600px;
+    margin-bottom: 580px;
     color:black;
-    font-style:oblique
+    font-style:oblique;
+} 
+
+/*Logo*/
+.logo{
+    width: 14vw;
+    margin: vw 2dvw;
+    position: absolute
 }
 
-
-div a[href="#"]{
-    display: inline-block;
-    color: white;
-    background-color: rgb(16, 158, 49);
-    height: 2.5rem;
-    padding: 0.5rem;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 2.5px 0 0.5px #8a8686;
-   }
-
-div a{
-    display: inline-block;
-    color: white;
-    background-color: rgb(58, 78, 196);
-    height: 2.5rem;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none; 
-    border-style: groove;
-    border-color: black;
-    box-shadow: 2.5px 0 0.5px #a09d9d;
+nav{
+    position: absolute;
+    right: 0;
+    top: 5.2vw;
+    background-color: none;
 }
 
-   
+.navicon{
+    padding: 0.45vw 2.14vw;
+    background-color: slateblue;
+    color: #f4f4f4;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.15vw;
+    border-radius: 14px;
+}
 
+.navicon:hover {
+    background-color: rgb(23, 189, 134);
+}
 
+/*articles*/
+.texto3{
+    margin-left: 24.5vw;
+    margin-top: 1.6vw;
+    margin-right: 9.5vw;
+}
+
+.texto3 h3{
+    color:black;
+    font-style:oblique ;
+    font-family:Times;
+}
+
+/*section*/
+.titsecun{
+    text-align: center;
+    font-size: 4vw;
+    padding: 0.65vw 2.00vw;
+    border: solid #41e4dc;
+    color:rgb(16, 48, 135);
+
+}
+section{
+    margin-bottom: 2.5vw;
+}
+/*iamgen 1 hohckey*/
+.imagenf{
+    width: 12.5vw;
+    margin: -11vw 85vw;
+    position: absolute
+}
+/*imagen hockey dos pag about*/
+.imagenf1{
+    width: 8vw;
+    margin: -15vw 90vw;
+    position: absolute
+    
+}
