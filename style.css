@@ -11,7 +11,6 @@
     display: block;
 }
 
-
 /*header*/
 header{
     font-size: 2.5vw;
@@ -67,21 +66,24 @@ nav{
 
 /*section*/
 .titsecun{
+    margin-top: -4.4vw;
     text-align: center;
     font-size: 4vw;
-    padding: 0.65vw 2.00vw;
+    padding: 0.5vw 2.00vw;
     border: solid #41e4dc;
     color:rgb(16, 48, 135);
-
+    background-color: rgb(183, 212, 212);
+    
 }
 section{
     margin-bottom: 2.5vw;
 }
 /*iamgen 1 hohckey*/
 .imagenf{
-    width: 12.5vw;
+    width: 13.5vw;
     margin: -11vw 85vw;
     position: absolute
+    
 }
 /*imagen hockey dos pag about*/
 .imagenf1{
@@ -89,4 +91,7 @@ section{
     margin: -15vw 90vw;
     position: absolute
     
+}
+body {
+    background-color:#9cddd9
 }
