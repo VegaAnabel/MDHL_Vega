@@ -2,96 +2,167 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
-/*miniportada*/
-
-.miniportada {
-    width: 100%;
-    display: block;
-}
-
-/*header*/
 header{
-    font-size: 2.5vw;
+    display: flex;
+    height: 70px;
+    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
 }
-/*Titulo principal*/
-.titulop {
-    margin-top: -600px;
-    margin-bottom: 580px;
-    color:black;
-    font-style:oblique;
-} 
 
-/*Logo*/
+/*logo*/
 .logo{
-    width: 14vw;
-    margin: vw 2dvw;
-    position: absolute
+   display: flex;
+   align-items: center;
 }
 
-nav{
-    position: absolute;
-    right: 0;
-    top: 5.2vw;
-    background-color: none;
+/*logo imagen*/
+.logo img{
+    height: 76px;
+    margin-right: 10px;
+    margin-left: -34px;
 }
 
-.navicon{
-    padding: 0.45vw 2.14vw;
-    background-color: slateblue;
-    color: #f4f4f4;
-    font-weight: lighter;
+/*titulo logo*/
+.titulop { 
+    font-style: oblique;
+    text-shadow: 1.2px 1.2px #e2b367;
+    font-size: 42px;
+    
+}
+
+.navi { 
+    padding-right: 10px;
+    margin: 0 15px 20px 0;
     text-decoration: none;
-    font-size: 1.15vw;
-    border-radius: 14px;
+    color: #fdc76f;
+    padding: 0.5vw 0.8vw;
+    background-color: rgb(194, 73, 73);
+    border-radius: 7.5px; 
 }
 
-.navicon:hover {
-    background-color: rgb(23, 189, 134);
+.navi:hover {
+    background-color: rgba(15, 29, 0, 0.603);
 }
 
-/*articles*/
-.texto3{
-    margin-left: 24.5vw;
-    margin-top: 1.6vw;
-    margin-right: 9.5vw;
+main{
+    width: auto;
+    background-color: brown;
 }
 
-.texto3 h3{
-    color:black;
-    font-style:oblique ;
-    font-family:Times;
+/* titulo 2*/
+.titsecun { 
+    display: flex;
+    margin: 44px 15px 282px 596px;
+    font-size: 30px;
+    text-decoration: overline;  
+}
+/* imagen 1 y 2 */
+
+body{ 
+    background-color: brown;
 }
 
-/*section*/
-.titsecun{
-    margin-top: -4.4vw;
+section {
+    background-image: url("./imagenes/imagen22.jpg") ;
+    background-position: 0 30%  ;
+    background-size: cover;
+    height: auto;
+    max-height: 450px;
+}
+
+.texto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+}
+    
+.texto5 {
+    display: flex;
+    flex-direction: row;
+    align-items:initial;
+    justify-content: space-between;
+    background-color: brown;
     text-align: center;
-    font-size: 4vw;
-    padding: 0.5vw 2.00vw;
-    border: solid #41e4dc;
-    color:rgb(16, 48, 135);
-    background-color: rgb(183, 212, 212);
     
 }
-section{
-    margin-bottom: 2.5vw;
+
+.texto6 { 
+    background-color:brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
-/*iamgen 1 hohckey*/
-.imagenf{
-    width: 13.5vw;
-    margin: -11vw 85vw;
-    position: absolute
-    
+.cuerpo {
+    background-color: brown;
 }
-/*imagen hockey dos pag about*/
-.imagenf1{
-    width: 8vw;
-    margin: -15vw 90vw;
-    position: absolute
-    
+.tite {
+    display: flex;
+    text-decoration: underline;  
 }
-body {
-    background-color:#9cddd9
+
+/*imagenes*/
+.im {
+    width: 500px;
+    margin: 5vh 0 0 5vh;
+}
+.imagenf1 {
+    width: 345px;
+    margin: 3.5vh 0 0 2.5vh;
+    border-radius: 4.2vh;
+}
+
+/*tablas*/
+
+li {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.nota_fecha{
+    text-align: center;
+    color: rgb(239, 179, 39);
+    margin: 0;
+}
+
+table{
+    width: 100%;
+    margin: -0.50ram;
+    border-collapse: unset;
+}
+th, td{
+    text-align: center;
+}
+
+.tabla_tit{
+    background-color: #6bf6ce;
+}
+
+.tabla_par{
+    background-color:#2edad2;
+}
+
+.tabla_imp{
+    background-color: #e9e2e755 ;
+}
+.fall{
+    text-size-adjust: 2px;
+    text-decoration: overline;
+    text-decoration-color: blanchedalmond;
+}
+
+/*footer*/
+.final{
+    padding: 1em 0;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
